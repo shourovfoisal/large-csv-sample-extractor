@@ -13,5 +13,5 @@ with open("input/test.csv", encoding="utf8", mode="r", newline="") as file:
     data_array.append(item)
   
   print(data_array)
-  writefile(json.dumps(data_array))
+  writefile("jsonoutpure", json.dumps(data_array))
   
